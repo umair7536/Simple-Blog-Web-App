@@ -90,6 +90,8 @@
       <path value="$PROJECT_DIR$/blogapp/vendor/sebastian/type" />
       <path value="$PROJECT_DIR$/blogapp/vendor/sebastian/object-enumerator" />
       <path value="$PROJECT_DIR$/blogapp/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/blogapp/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/blogapp/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2">

@@ -12,3 +12,66 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.text1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.form_setup{
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.ck-editor__editable {
+    min-height: 280px;
+}
+
+.create_btn{
+    border-radius: 8px;
+}
+
+
+/*  Alert   */
+
+.alert {
+    margin: 0px 20px;
+    padding: 17px;
+    border-radius: 5px;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.cla1{
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px; /* fallback */
+    max-height: 32px; /* fallback */
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.set_btn_del {
+    margin:0px 10px;
+
+}

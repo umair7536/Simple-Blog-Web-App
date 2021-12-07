@@ -29,8 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
-
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
     /*
     |--------------------------------------------------------------------------
     | SMTP Host Port
@@ -41,9 +40,7 @@ return [
     | stay compatible with the Mailgun e-mail application by default.
     |
     */
-
-    'port' => env('MAIL_PORT', 587),
-
+    'port' => env('MAIL_PORT', 25),
     /*
     |--------------------------------------------------------------------------
     | Global "From" Address
@@ -54,12 +51,7 @@ return [
     | used globally for all e-mails that are sent by your application.
     |
     */
-
-    'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
-    ],
-
+    'from' => ['address' => 'apnadeveloper23@gmail.com', 'name' => 'asd'],
     /*
     |--------------------------------------------------------------------------
     | E-Mail Encryption Protocol
@@ -70,7 +62,6 @@ return [
     | transport layer security protocol should provide great security.
     |
     */
-
     'encryption' => env('MAIL_ENCRYPTION', 'tls'),
 
     /*
@@ -84,9 +75,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => env('apnadeveloper23@gmail.com'),
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => env('Apna@12345'),
 
     /*
     |--------------------------------------------------------------------------

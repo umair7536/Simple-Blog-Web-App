@@ -12,23 +12,3 @@
 </div>
 
 @endsection
-
-
-
-
-
-
-
-
-
-
-
-<VirtualHost *:80>
-    ServerAdmin webmaster@localhost
-    ServerName myapp
-    DocumentRoot "/home/devopify/myapp1"
-    ServerName myapp.dev
-    <Directory "/home/devopify/myapp1">
-    Require all granted
-    </Directory>
-</VirtualHost>
